@@ -75,5 +75,9 @@ fabric.properties
 *.class
 *.log
 
+# Project exclude paths
+/project/target/
+/target/
+/null/
 
 # End of https://www.gitignore.io/api/scala,intellij

@@ -7,8 +7,8 @@ object Recursion extends App {
   def factorial(n: Int): Int =
     if (n <= 1) 1
     else {
-      println("Computing factorial of " + n + " - I first need factorial of " + (n-1))
-      val result = n * factorial(n-1)
+      println("Computing factorial of " + n + " - I first need factorial of " + (n - 1))
+      val result = n * factorial(n - 1)
       println("Computed factorial of " + n)
 
       result
@@ -50,7 +50,7 @@ object Recursion extends App {
   @tailrec
   def concatenateTailrec(aString: String, n: Int, accumulator: String): String =
     if (n <= 0) accumulator
-    else concatenateTailrec(aString, n-1, aString + accumulator)
+    else concatenateTailrec(aString, n - 1, aString + accumulator)
 
   println(concatenateTailrec("hello", 3, ""))
 
@@ -70,7 +70,7 @@ object Recursion extends App {
 
   def fibonacci(n: Int): Int = {
     def fiboTailrec(i: Int, last: Int, nextToLast: Int): Int =
-      if(i >= n) last
+      if (i >= n) last
       else fiboTailrec(i + 1, last + nextToLast, last)
 
     if (n <= 2) 1
