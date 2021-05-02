@@ -9,7 +9,7 @@ Simple project with Scala.
 ---
 
 ## ⚙ Settings
-  Have the java, scala installed (recommended sdkman) and IntelliJ.
+  Have the java, scala, sbt installed (recommended sdkman) and IntelliJ.
 
 ---
 
