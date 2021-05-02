@@ -79,5 +79,6 @@ fabric.properties
 /project/target/
 /target/
 /null/
+.bsp/
 
 # End of https://www.gitignore.io/api/scala,intellij
